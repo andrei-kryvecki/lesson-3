@@ -120,19 +120,17 @@ button:hover {
     background: rgba(255, 255, 255, 0.3);
     border-width: 2px;
     transition: 0.3s;
- }
+}
  
 button:active {
-    width: 125px;
-    height: 37px;
     background: rgba(255, 255, 255, 0.8);
     border-color: #ffffff;
     border-width: 2px;
     transition: 0.2s;
     color:#000000
- }
+}
 
-/* ___________________ FOOTER ___________________ */
+/* _______________________ FOOTER _______________________ */
 
 footer {
     background: black;
@@ -145,8 +143,9 @@ ul {
 }
 
 li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
+
 }
 
 footer p{
